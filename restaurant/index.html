@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin:0; box-sizing: border-box; }
+        ul, li, ol {list-style: none;}
+        a {text-decoration: none; }
+
+        header{width:100%; height:66px; position: absolute; padding:0 15px; font-family: "Lato", sans-serif; margin:0 auto; border-bottom:1px solid #666;}
+            header > #logo {width:80px; height:100%;  padding:20px 16px 20px 0;  float:left; border-right: 1px solid #565758;}
+            header > #logo > img {width:64px; height:28px; padding:0;}
+            header > ul {width:65%; height:100%; display: inline-block; padding:0; }
+            header > ul > li {width:77px; height:62px; font-size: 14px; padding:22px 19px; float:left;}
+            header > ul > li > a {color:#fff;}
+            header > ul > li:nth-child(3) {width:91px}
+            header > ul > li:nth-child(5) {width:95px}
+            header > ul > li:after {content:"~"; color:#fff; margin:0 13px;}
+            header > ul > li:last-child:after {content:none;}
+            header > ul > li:hover{cursor:pointer;}
+
+            header > #icon {width:224px; height:100%;  float:right; padding:0;}
+            header > #icon > #call {width:163px; height:100%; padding: 22px 0 24px 19px; float:right; }
+            header > #icon > #call > h3 {font-size: 14px; color:#fff; padding: 0 0 0 10px;}
+            header > #icon > #call > h3 > img {width:13px; height:10px;}
+            header > #icon > #bell {width:61px; height:100%; padding:22px 19px;  float: right; border-right: 1px solid #565758; border-left: 1px solid #565758;}
+            header > #icon > #bell > img {width:21px; height:21px;}
+            
+
+        #mainImage {width:100%; height:100vh; background-image: url("img/big1.jpg"); background-repeat: no-repeat; background-size: cover;}
+            #mainImage > div {width:100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+            #mainImage > div > h1 {font-size: 56px; font-family: "Lustria", serif; color:#fff; margin: 15px 0;}
+            #mainImage > div > p {font-size: 14px; font-family: "Lato", sans-serif; font-weight: bold; color:#fff;}
+            #mainImage > div > p > span {padding: 0 12px;}
+
+
+
+        #ourStory {width:100%; height:804px; padding:128px 0; background-color: yellow;}
+
+        #reservation {width:100%; height:750px; background-color: yellowgreen;}
+
+        #specialMenu {width:100%; height:1017px; padding:128px 0; background-color: green;}
+
+        #slider {width:100%; height:516px; background-color: skyblue;}
+
+        #foexerestoMenu {width:100%; height:910px; padding:128px 0; background-color: aqua;}
+
+        #gallery {width:100%; height:922px; padding:128px 0; background-color: blue;}
+
+        #customerServices {width:100%; height:798px; padding:128px 0; background-color: blueviolet;}
+
+        #book {width:100%; height:1016px; background-color: purple;}
+
+        #deliciousRecipies {width:100%; height:1106px; padding:128px 0; background-color: pink;}
+
+        footer {width:100%; height:485px; background-color: palevioletred;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="location.href='#';">
+            <img src="img/icon/logo-light.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">RESTO</a></li>
+            <li><a href="#">SPECIAL</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">PAGES</a></li>
+        </ul>  
+        
+            <div id="icon">
+                <div id="call">
+                    <h3><img src="img/icon/call.png" alt="call">   513 352-3209</h3>
+                </div>
+                <div id="bell">
+                    <img src="img/icon/ring-bell-light.png" alt="bell">
+                </div>
+                
+            </div>
+            
+    </header>
+
+    <div id="mainImage">
+        <div>
+            <h1>Welcome To Foxeresto</h1>
+            <p>RESTAURANT <span>·</span> CAFE <span>·</span> BAR <span>·</span> 24/7</p>
+        </div>
+    </div>
+
+    <section id="ourStory"></section>
+
+    <div id="reservation"></div>
+
+    <section id="specialMenu"></section>
+
+    <div id="slider"></div>
+
+    <section id="foexerestoMenu"></section>
+
+    <section id="gallery"></section>
+
+    <section id="customerServices"></section>
+
+    <div id="book"></div>
+
+    <section id="deliciousRecipies"></section>
+
+    <footer></footer>
+</body>
+</html>

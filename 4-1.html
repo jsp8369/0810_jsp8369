@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin:0; box-sizing: border-box;}
+        .btn {width: 50%; display: flex; margin-top: 5px; padding: 10px 20px; box-shadow: 0 0 0 1px #888;
+        border: solid 3px currentColor; border-radius: 6px; cursor:pointer;
+        background-color: #A7A37E; color: #fff; font-size: 14px; }
+
+        .btn:hover{opacity: 0.8;}
+
+        @media (max-width:599px) {
+            #wrap {width:100% ; height:auto; border:3px solid #666; margin:0 auto; 
+                display: flex; flex-direction: column; align-items: center; justify-content: space-around;}
+        .box {width:90%; height:400px; background-color: gold; margin:5% 2%; display: flex; flex-direction: column;}
+        .box > .photo {width:100%; height:200px; background-color: red;}
+        .box > .photo > img {width:100%; height:100%;}
+        .box > .text {width:100%; height:300px; background-color: skyblue;
+            display: flex; flex-direction: column; justify-content: space-between; align-items:flex-start; padding:10px;}
+        
+        }
+
+        @media (min-width:600px) {
+            #wrap {width:1000px; height:auto; border:3px solid #666; margin:0 auto; 
+                display: flex; flex-direction: column; align-items: center; justify-content: space-around;}
+        .box {width:90%; height:300px; background-color: gold; margin:5% 2%; display: flex;}
+        .box > .photo {width:40%; height:300px; background-color: red;}
+        .box > .photo > img {width:100%; height:100%;}
+        .box > .text {width:60%; height:300px; background-color: skyblue;
+            display: flex; flex-direction: column; justify-content: space-between; align-items:flex-end; padding:10px;}
+        
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box">
+            <div class="photo">
+                <img src="https://images.unsplash.com/photo-1691434865454-f1998e81869b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="고기">
+            </div>
+            <div class="text">
+                <h3>귀찮은 설정과 데이터 관리를 하지 않아도 됩니다</h3>
+                <p>라이프로그에서는 귀찮은 설정과 데이터 관리를 따로 하지 않아도 됩니다. 다른 애플리케이션과의 연동도 버튼 하나만 누르면 됩니다.</p>
+                <span class="btn">자세한 설정 살펴보기<img src="../0809/Step3_content/img/icon5.png"></span>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="photo">
+                <img src="https://images.unsplash.com/photo-1691434865454-f1998e81869b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="고기">
+            </div>
+            <div class="text">
+                <h3>귀찮은 설정과 데이터 관리를 하지 않아도 됩니다</h3>
+                <p>라이프로그에서는 귀찮은 설정과 데이터 관리를 따로 하지 않아도 됩니다. 다른 애플리케이션과의 연동도 버튼 하나만 누르면 됩니다.</p>
+                <span class="btn">자세한 설정 살펴보기<img src="../0809/Step3_content/img/icon5.png"></span>
+
+        </div>
+    </div>
+</body>
+</html>

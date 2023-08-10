@@ -1,0 +1,31 @@
+
+header 100%x66 -> position : absolut background- rgba ( 0 0 0 0)
+
+div(main-image) : 100%x963 높이 : html 화면 높이랑 똑같음
+
+section(ourStory):100%x804(고정값으로 줘도 될듯)
+- padding 128px 0 
+
+div(reservation) 824x750 : 왼쪽으로 100%, 높이는 고정값 / div(inner-image) : 1600x750(둘다 고정)
+n / padding 0 0 0 8px
+
+section(specialmenu) 100%x1017(고정)
+-padding 128px 0
+
+div(slider) : 100%x516(고정)
+
+section(foexerestoMenu) 100%x910
+padding: 128 0
+
+section(gallery) 100%x922
+padding: 128 0
+
+section(customerServices) 100%x798
+padding: 128 0 
+
+div(book) 100%x1016
+
+section(DeliciousRecipies) 100%x1106
+padding: 128 0 
+
+footer 100%x485
